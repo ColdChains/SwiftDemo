@@ -1,0 +1,57 @@
+PODS:
+  - SnapKit (5.6.0)
+  - SwiftBaseKit (0.1.2):
+    - SwiftBaseKit/Adapter (= 0.1.2)
+    - SwiftBaseKit/Config (= 0.1.2)
+    - SwiftBaseKit/Constant (= 0.1.2)
+    - SwiftBaseKit/Extension (= 0.1.2)
+    - SwiftBaseKit/Manager (= 0.1.2)
+  - SwiftBaseKit/Adapter (0.1.2):
+    - SwiftBaseKit/Config
+    - SwiftBaseKit/Constant
+    - SwiftBaseKit/Extension
+  - SwiftBaseKit/Config (0.1.2):
+    - SwiftBaseKit/Extension
+  - SwiftBaseKit/Constant (0.1.2):
+    - SwiftBaseKit/Config
+  - SwiftBaseKit/Extension (0.1.2)
+  - SwiftBaseKit/Manager (0.1.2)
+  - SwiftComponentsKit (1.0.0):
+    - SnapKit
+    - SwiftBaseKit
+    - SwiftComponentsKit/BaseViewController (= 1.0.0)
+    - SwiftComponentsKit/MenuBarController (= 1.0.0)
+    - SwiftComponentsKit/RecycleView (= 1.0.0)
+    - SwiftComponentsKit/TipsView (= 1.0.0)
+  - SwiftComponentsKit/BaseViewController (1.0.0):
+    - SnapKit
+    - SwiftBaseKit
+  - SwiftComponentsKit/MenuBarController (1.0.0):
+    - SnapKit
+    - SwiftBaseKit
+    - SwiftComponentsKit/BaseViewController
+  - SwiftComponentsKit/RecycleView (1.0.0):
+    - SnapKit
+    - SwiftBaseKit
+  - SwiftComponentsKit/TipsView (1.0.0):
+    - SnapKit
+    - SwiftBaseKit
+
+DEPENDENCIES:
+  - SwiftBaseKit
+  - SwiftComponentsKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+    - SwiftBaseKit
+    - SwiftComponentsKit
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftBaseKit: c0baf74144d17de8f983df40825910e5505d43be
+  SwiftComponentsKit: bef817b9e3e7be3411fa5b5aea96b79714095d67
+
+PODFILE CHECKSUM: 51ecf38dc63d0ab06a4cf575061342115df7b526
+
+COCOAPODS: 1.11.2
