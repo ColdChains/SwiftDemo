@@ -8,7 +8,7 @@ target 'SwiftDemo' do
   # Pods for SwiftDemo
   # pod 'SnapKit', '4.2.0'
    
-  pod 'SwiftBaseKit'
+#  pod 'SwiftBaseKit'
   pod 'SwiftComponentsKit'
 
 #  pod 'SwiftViewController'

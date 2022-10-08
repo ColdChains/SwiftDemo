@@ -16,29 +16,28 @@ PODS:
     - SwiftBaseKit/Config
   - SwiftBaseKit/Extension (0.1.2)
   - SwiftBaseKit/Manager (0.1.2)
-  - SwiftComponentsKit (1.0.0):
+  - SwiftComponentsKit (1.0.3):
     - SnapKit
     - SwiftBaseKit
-    - SwiftComponentsKit/BaseViewController (= 1.0.0)
-    - SwiftComponentsKit/MenuBarController (= 1.0.0)
-    - SwiftComponentsKit/RecycleView (= 1.0.0)
-    - SwiftComponentsKit/TipsView (= 1.0.0)
-  - SwiftComponentsKit/BaseViewController (1.0.0):
+    - SwiftComponentsKit/BaseViewController (= 1.0.3)
+    - SwiftComponentsKit/MenuBarController (= 1.0.3)
+    - SwiftComponentsKit/RecycleView (= 1.0.3)
+    - SwiftComponentsKit/TipsView (= 1.0.3)
+  - SwiftComponentsKit/BaseViewController (1.0.3):
     - SnapKit
     - SwiftBaseKit
-  - SwiftComponentsKit/MenuBarController (1.0.0):
+  - SwiftComponentsKit/MenuBarController (1.0.3):
     - SnapKit
     - SwiftBaseKit
     - SwiftComponentsKit/BaseViewController
-  - SwiftComponentsKit/RecycleView (1.0.0):
+  - SwiftComponentsKit/RecycleView (1.0.3):
     - SnapKit
     - SwiftBaseKit
-  - SwiftComponentsKit/TipsView (1.0.0):
+  - SwiftComponentsKit/TipsView (1.0.3):
     - SnapKit
     - SwiftBaseKit
 
 DEPENDENCIES:
-  - SwiftBaseKit
   - SwiftComponentsKit
 
 SPEC REPOS:
@@ -50,8 +49,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftBaseKit: c0baf74144d17de8f983df40825910e5505d43be
-  SwiftComponentsKit: bef817b9e3e7be3411fa5b5aea96b79714095d67
+  SwiftComponentsKit: 4b28bd6ba0ddaeb2bb7a920b82515759c61f68ee
 
-PODFILE CHECKSUM: 51ecf38dc63d0ab06a4cf575061342115df7b526
+PODFILE CHECKSUM: 37d58898b40fb35fbf5d5cf7649962aa9d2643df
 
 COCOAPODS: 1.11.2

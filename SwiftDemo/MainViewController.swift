@@ -17,18 +17,18 @@ class MainViewController: ViewController {
         tableView.dataSource = self
         tableView.backgroundColor = .clear
         tableView.contentInset = UIEdgeInsets()
-        tableView.contentInsetAdjustmentBehavior = .never
+        tableView.separatorStyle = .none
+        if #available(iOS 11.0, *) {
+            tableView.contentInsetAdjustmentBehavior = .never
+        }
         tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.separatorStyle = .none
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.className)
         return tableView
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        navigationController?.navigationBar.isHidden = true
         
         showNavigationBar = true
         navigationBar?.leftItem = nil
@@ -56,11 +56,13 @@ extension MainViewController: UITableViewDataSource {
         case 0:
             cell.textLabel?.text = "BaseViewController"
         case 1:
-            cell.textLabel?.text = "MenuBar"
+            cell.textLabel?.text = "MenuBarController"
         case 2:
-            cell.textLabel?.text = "Present"
+            cell.textLabel?.text = "PresentMenuBarController"
         case 3:
-            cell.textLabel?.text = "Recycle"
+            cell.textLabel?.text = "RecycleView"
+        case 4:
+            cell.textLabel?.text = "TipsView"
         default:
             break
         }
@@ -100,6 +102,8 @@ extension MainViewController: UITableViewDelegate {
             present(pmbc, animated: true, completion: nil)
         case 3:
             navigationController?.pushViewController(RecycleTestViewController(), animated: true)
+        case 4:
+            navigationController?.pushViewController(TipsTestViewController(), animated: true)
         default:
             break
         }

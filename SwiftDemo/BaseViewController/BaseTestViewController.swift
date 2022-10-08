@@ -1,6 +1,6 @@
 //
 //  BaseTestViewController.swift
-//  SwiftDemo
+//  SwiftComponentsKitDemo
 //
 //  Created by lax on 2022/9/21.
 //
@@ -12,11 +12,9 @@ class BaseTestViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        navigationController?.navigationBar.isHidden = true
         
         showNavigationBar = true
-        navigationBar?.titleLabel?.text = "hello"
+        navigationBar?.titleLabel?.text = "BaseViewController"
         
     }
 

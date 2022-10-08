@@ -1,20 +1,26 @@
 //
 //  MenuBarTestViewController.swift
-//  SwiftDemo
+//  SwiftComponentsKitDemo
 //
 //  Created by lax on 2022/9/21.
 //
 
 import UIKit
+import SwiftBaseKit
 import SwiftComponentsKit
 
 class MenuBarTestViewController: MenuBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         view.backgroundColor = .white
+        showNavigationBar = true
+        navigationBar?.titleLabel?.text = "MenuBarController"
+        
         // 设置顶部间距
-        self.topMargin = 64;
+        self.topMargin = NavigationBarHeight;
+        self.bottomMargin = HomeBarHeight
         
         let headerView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 200))
         headerView.backgroundColor = .green
